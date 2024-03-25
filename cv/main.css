@@ -1,0 +1,15 @@
+.encabezado{
+    display: flex;
+}
+.caja_foto{
+    width: 20%;
+}
+.caja_titulo{
+    width: 80%;
+    height: 200px;
+    background-color:cadetblue ;
+    color: white;
+}
+img {
+ width: 300px; height: 200px;
+}
