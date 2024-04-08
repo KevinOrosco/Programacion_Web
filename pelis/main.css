@@ -1,0 +1,41 @@
+.alineamientoTitulo{
+    text-align: center;
+    color: white;
+}
+.alineamiento{
+    text-align: center;
+    border-radius: 50px; /* Largo de los bordes*/
+    background: #02ffc085;
+    padding: 10px;  /* ancho del borde */
+    
+}
+
+.bordes { /**/
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+.fondopagina{
+    background-image: url("../cv/walli2.jpg");
+    background-size:138cap;
+}
+
+.grilla{
+    display: grid;
+    /*grid-template-columns: 250px 250px 250px;*//*Como generar disposicion basica de las columnas de una grilla */
+    /*grid-template-columns: repeat(3, 250px);*/
+    grid-template-columns:repeat(auto-fit,minmax(300px, 1fr));
+    /*grid-template-rows: 350px;*/
+    grid-auto-rows: auto;
+    gap: 60px;
+}
+
+.fotodinamica{
+    width: 70%;
+    aspect-ratio: 1 / 2 ; /*puede ser opcional -> darle estructura a las fotos*/
+    /*object-fit: cover;*/
+    
+}
