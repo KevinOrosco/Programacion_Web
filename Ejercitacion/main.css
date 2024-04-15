@@ -1,0 +1,29 @@
+.horizontal{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+.rostis{
+    display: flex;
+    justify-content:space-evenly;
+}
+.rostis2{
+    display: flex;
+    justify-content:center;
+}
+
+.fertis{
+    display: flex;
+    align-items:end;
+}
+.gao{
+    display: flex;
+    gap: 2%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+}
