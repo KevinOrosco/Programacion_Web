@@ -1,0 +1,52 @@
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px; 
+    grid-template-rows: 250px 250px 250px; 
+    gap: 2%; 
+}
+
+.nombres{
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.bordes{
+    justify-content: center;
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 15px;
+}
+
+.Blastoise{
+    border-radius: 25px;
+    background: #2792f7;
+    padding: 20px;
+}
+
+.Charizard{
+    border-radius: 25px;
+    background: #f87d09;
+    padding: 20px;
+}
+
+.Zeraora{
+    border-radius: 25px;
+    background: #fffb1b;
+    padding: 20px;
+}
+
+.Cubone{
+    border-radius: 25px;
+    background: #4502b1;
+    padding: 20px;
+}
+
+.Kubfu{
+    border-radius: 25px;
+    background: #666666;
+    padding: 20px;
+}
+
+

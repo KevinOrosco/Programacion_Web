@@ -1,0 +1,19 @@
+
+.content{
+    display: flex;
+    justify-content:space-evenly;
+}
+.content2{
+    display: flex;
+    justify-content:center;
+}
+
+.align{
+    display: flex;
+    align-items:center;
+}
+
+.align2{
+    display: flex;
+    align-items:flex-end;
+}
