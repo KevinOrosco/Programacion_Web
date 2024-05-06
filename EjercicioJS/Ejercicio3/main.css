@@ -1,0 +1,29 @@
+.centra{
+    text-align: center;
+}
+
+.alineacion{
+    display: flex;
+    justify-content: center;
+}
+
+.alineacion_vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: coral;
+    width: 500px;
+    height: 500px;
+}
+
+.scroll-container {
+    display: block;
+    width: 370px;
+    height: 350px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }

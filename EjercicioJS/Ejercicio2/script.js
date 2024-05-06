@@ -12,5 +12,5 @@ function number2() {
 
 function calcular(){
     let resultado = number1() + number2();
-    resultado = document.getElementById("resultado").textContent = resultado;
+    document.getElementById("resultado").textContent = resultado;
 }
