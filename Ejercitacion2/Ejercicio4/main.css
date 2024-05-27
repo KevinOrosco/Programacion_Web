@@ -1,0 +1,15 @@
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px;
+    }
+li {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    }
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

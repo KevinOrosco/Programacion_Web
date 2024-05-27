@@ -1,0 +1,12 @@
+.bordeado{
+    border-radius: 10%;
+    width: 16cap;
+    background-color: gold;
+    padding: 20px;
+    margin: 20px;
+}
+
+button{
+    height: 4cap;
+    background-color:steelblue;
+}
