@@ -1,0 +1,20 @@
+.grilla_3x3{
+    display: grid;
+    grid-template-columns: 350px 350px 350px; 
+    grid-template-rows: auto auto auto; 
+    gap: 5%;
+}
+
+h2{
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.bordes{
+    justify-content: center;
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 15px;
+}
